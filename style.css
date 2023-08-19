@@ -1,0 +1,328 @@
+body {
+   margin: 0;
+   font-family: 'Bebas Neue', sans-serif;
+   font-family: 'Chivo', sans-serif;
+   font-family: 'Sofia Sans', sans-serif;
+   font-family: 'Vollkorn', serif;
+   height: auto;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: center;
+    text-transform: uppercase;
+    background-color: #0065c3;
+    padding: 10px;
+    color: white;
+}
+
+.navbar-left{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+}
+
+.navbar-items{
+    margin-left: 30px;
+    cursor: pointer;
+    
+}
+
+.navbar-right .navbar-items{
+    border-radius: 50px;
+    border: 2px solid white;
+    padding : 5px 25px;
+}
+
+.products{
+    display: flex;
+    align-items: start;
+   /*  height: 190.769vw;
+    height: 202.051vw; */
+    max-height: 960px;
+    background: url(https://www.pepsi.com/en-us/uploads/images/apple-music/background.png) center center no-repeat ;
+    background-position: fixed;
+    @media screen {
+        min-width: 1024px;   
+    }
+    background-size: cover;
+    
+    
+
+}
+
+.product-items{
+    width: 63.281vw;
+    height: 53.125vw;
+    max-width: 50%;
+    max-height: 534px;
+    left: 0;
+    bottom: 0;
+    background-image: url(https://www.pepsi.com/en-us/uploads/images/apple-music/pzs-can-old@2x.png);
+    background-position: right bottom -80px;
+    background-size: auto 115%;
+    margin-top: 100px;
+}
+
+.product-text{
+    margin-top: 80px;
+    height: 56.41vw;
+    width: 81.282vw;
+    max-height: 282px;
+    max-width: 422px;
+    background: url(https://www.pepsi.com/en-us/uploads/images/apple-music/apple-music-lockup-small-mobile.svg) center center no-repeat;
+    background-size: auto 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.product-align{
+    align-items: center;
+    justify-content: center;
+    justify-content: center;
+}
+.product-button{
+    justify-content: center;
+    display: flex;
+    margin-top: 20px;
+    padding: 5px 5px;
+    border: 2px solid white;
+    border-radius: 50px;
+    color: white;
+    
+
+}
+/* .zero-background{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    
+}
+
+.zero-background img{
+    width: 800px;
+    height: 650px;
+    padding-bottom: 0px;
+    
+} */
+
+.zero{
+    display: flex;
+    align-items: start;
+   /*  height: 190.769vw;
+    height: 202.051vw; */
+    max-height: 960px;
+    background-position: fixed;
+    @media screen {
+        min-width: 1024px;   
+    }
+    background-size: cover;
+    background-color: black;
+
+}
+
+.zero-items{
+    width: 800px;
+    height: 650px;
+    /* max-width: 50%;
+    max-height: 534px; */
+    background-image: url(	https://www.pepsi.com/en-us/uploads/images/pzs-new-taste/pzs-can-nobug-desktop.png);
+    background-position: right bottom -30px;
+    background-size: auto 115%;
+    
+}
+
+.zero-align{
+    align-items: center;
+    justify-content: center;
+    
+}
+.zero-text{
+   
+    margin-top: 100px;
+    height: 58.41vw;
+    width: 83.282vw;
+    max-height: 300px;
+    max-width: 500px; 
+    background: url(https://www.pepsi.com/en-us/uploads/images/pzs-new-taste/headline.svg) center center no-repeat;
+    background-size: auto 83%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.zero-button{
+    
+    height: 40px;
+    max-height: 300px;
+    width: 350px;
+    max-width: 500px;
+    margin-top: 12.2px;
+    background: url(https://www.pepsi.com/en-us/uploads/images/pzs-new-taste/try-it-to-believe-it.svg) center center no-repeat;
+    background-size: auto 50%;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+    
+}
+.nitro{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.nitro-image img{
+max-width: 60%;
+padding: 20px;
+}
+
+.nitro-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nitro-items img{
+    max-width: 60%;
+}
+
+.nitro-align{
+    align-items: center;
+    justify-content: center;
+       
+}
+.main{
+    background-color: rgb(81, 81, 232);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+  
+  }
+  .left{
+    height: 85vh ;
+    width: 27%;
+    margin-right: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .top{
+    background: blue;
+    width: 100%;
+    height: 47%;
+  
+  }
+  
+  
+  .top img{
+    width: 100%;
+    height: 80%;
+  
+  }
+  .bottom{
+    background: blue;
+    width: 100%;
+    height: 47%;
+  
+  }
+  .bottom img{
+    width: 100%;
+    height: 80%;
+    
+    
+  }
+  .text {
+    color: white;
+    height: 18%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-transform: capitalize;
+   
+  }
+  
+   .right{
+     height: 85vh;
+     width: 65% ;
+     background: url(./3.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center bottom;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      align-items: flex-end;
+  }
+   
+  
+  
+  .titletext{
+    background-color: blue;
+    font-size: 2rem;
+    padding: 10px;
+    color: white;
+    transform: rotate(-5deg);
+    padding-right: 30px;
+  
+  }
+  
+  .subtext{
+    background-color: rgb(63, 63, 253);
+    font-size: 1.4rem;
+    padding: 10px;
+    color: white;
+    transform: rotate(-5deg);
+    padding-right: 30px;
+    margin-bottom: 30px;
+    margin-top: -5px;
+  }
+
+  .six-container {
+
+  }
+  .div-6-color{
+  background-color: blue;
+  height: 470px;
+  padding: 70px 0px;
+  }
+  .background-img11{
+  background-image: url("./background-img11.png");
+  background-size: cover;
+  object-fit: cover;
+  height: 500px;
+  font-size: 100px;
+  margin-top: 40px;
+  }
+  .img-mango{
+  margin-left: 30px;
+  
+  }
+  .img-13{
+  height: 20px;
+  margin-bottom: -170px;
+  margin-left: -400px;
+  }
+  
+  .img-14{
+      
+    width: 100%; 
+    max-width: 300px; 
+    display: block; 
+    margin: 20px auto 0; 
+  }
+  /* .multi-pepsi{
+      position: absolute;
+      margin-right: 0;
+      margin-bottom: 0; */
+  }
